@@ -1,4 +1,4 @@
-Commands:
+---------- LOCAL REPO -----------
 
 Create a local repository:
 git init
@@ -13,8 +13,13 @@ git add <file name>
 Commit files to main branch
 git commit -m "message"
 
-Add local repo to cloud repo:
+---------- REMOTE REPO ----------
+
+Add local repo to remote repo:
 git remote add origin <https address>
 
 Push data from local to remote repo
 git push origin master
+
+Push data from local to remote:
+git push
