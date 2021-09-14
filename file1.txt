@@ -1,1 +1,20 @@
-Hello
+Commands:
+
+Create a local repository:
+git init
+
+Verify the status of the files:
+git status
+
+Add files to the staging area:
+git add .
+git add <file name>
+
+Commit files to main branch
+git commit -m "message"
+
+Add local repo to cloud repo:
+git remote add origin <https address>
+
+Push data from local to remote repo
+git push origin master
