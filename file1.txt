@@ -23,3 +23,29 @@ git push origin master
 
 Push data from local to remote:
 git push
+
+
+---------- BRANCHES -----------
+
+Check branches:
+git branch
+
+Create a new branch
+git checkout -B <name of the branch>
+
+Switch branch
+git checkout <name of the branch>
+
+
+---------- REBASE ---------
+
+Rebase the current branch (compress the commits into a single commit)
+-- in the command below, compress the last 4 commits
+git rebase -i HEAD~4
+-- after that some files will open
+-- change the pick to squash
+-- and change pick to reword if you want to change the commit message
+
+--------- MERGE ---------
+To merge the current branch with update from other branch
+git merge <name of the other branch>
