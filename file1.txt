@@ -41,6 +41,8 @@ git checkout -B <name of the branch>
 Switch branch
 git checkout <name of the branch>
 
+Delete local branch
+git branch -d <branch name>
 
 ---------- REBASE ---------
 
