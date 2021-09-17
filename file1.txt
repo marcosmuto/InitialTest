@@ -27,6 +27,9 @@ git push
 Pull data from remote to local:
 git pull
 
+Clone a remote repo locally
+git clone <https address>
+
 ---------- BRANCHES -----------
 
 Check branches:
