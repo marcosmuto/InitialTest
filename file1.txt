@@ -24,6 +24,8 @@ git push origin master
 Push data from local to remote:
 git push
 
+Pull data from remote to local:
+git pull
 
 ---------- BRANCHES -----------
 
